@@ -1,0 +1,22 @@
+package com.tiem.spring_actuator_service;
+
+public class Greeting {
+
+	private final long id;
+	private final String content;
+
+	public Greeting(long id, String content) {
+		super();
+		this.id = id;
+		this.content = content;
+	}
+
+	public long getId() {
+		return id;
+	}
+
+	public String getContent() {
+		return content;
+	}
+
+}
